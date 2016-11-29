@@ -233,8 +233,75 @@ namespace ifelse
             //Console.ReadKey();
             #endregion
 
+            #region 0,9 Sayıları yaz
 
 
+            //int counter = 0;
+            //while (counter < 10)
+            //{
+            //    Console.WriteLine(counter);
+            //    counter++;
+            //}
+
+            //Console.ReadKey();
+
+            #endregion
+
+            #region  Sayıların toplamı
+            //int a = 0;
+            //int toplam = 0;
+
+            //while (a < 10)
+            //{
+            //    a++;
+            //    toplam = toplam + a;
+            //    Console.WriteLine(toplam);
+
+            //}
+
+            //Console.ReadKey();
+            #endregion
+
+
+            #region 10 tabanında bir sayı girilsin ikilik tabana çevir.
+            #endregion
+
+            #region Faktoriyel Hesaplama
+            //int n = 10, fakto = 1, counter = 1;
+            //while (counter <=n)
+            //{
+            //    fakto *= counter;
+            //    counter++;
+            //}
+            //Console.WriteLine(fakto);
+            //Console.ReadKey();
+            #endregion
+
+            #region TahminEt
+            //Console.WriteLine("[1-10] bir sayı tuttum bul bakalım.");
+
+            //Random r = new Random();
+            //int rasgeleSayi = r.Next(1,11);
+
+            //int tahmin, counter=0;
+
+            //while (true)
+            //{
+            //    counter++;
+            //    Console.Write("Tahminin Ne:");
+            //    tahmin = Convert.ToInt32(Console.ReadLine());
+
+            //    if (tahmin == rasgeleSayi)
+            //    {
+
+            //        break;
+
+            //    }
+
+            //}
+            //Console.WriteLine("\nTebrikler... {0}.adımda bildin", counter);
+            //Console.ReadKey();
+            #endregion
         }
     }
 }
