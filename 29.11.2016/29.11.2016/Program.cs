@@ -264,6 +264,20 @@ namespace ifelse
 
 
             #region 10 tabanında bir sayı girilsin ikilik tabana çevir.
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //int sonuc = 0;
+            //int basamak = 1;
+            //while (sayi > 0) 
+            //{
+            //    sonuc += (sayi % 2) * basamak;
+            //    basamak *= 10;
+            //    sayi /= 2;
+            //}
+
+            //Console.WriteLine(sonuc);
+            //Console.ReadKey();
+
             #endregion
 
             #region Faktoriyel Hesaplama
@@ -302,6 +316,57 @@ namespace ifelse
             //Console.WriteLine("\nTebrikler... {0}.adımda bildin", counter);
             //Console.ReadKey();
             #endregion
+
+            #region Dörtİşlemler
+            //bool devam = true;
+            //while (devam)
+            //{
+            //    Console.Write("Birinci Sayi:");
+            //    double sayi1 = Convert.ToDouble(Console.ReadLine());
+            //    Console.Write("İkinci Sayi:");
+            //    double sayi2 = Convert.ToDouble(Console.ReadLine());
+            //    Console.Write("islem sec:");
+            //    char islem = Convert.ToChar(Console.ReadLine());
+            //    double sonuc;
+            //    switch (islem)
+            //    {
+            //        case '+':
+            //            sonuc = sayi1 + sayi2;
+            //            break;
+            //        case '-':
+            //            sonuc = sayi1 - sayi2;
+            //            break;
+            //        case '*':
+            //            sonuc = sayi1 * sayi2;
+            //            break;
+            //        case '/':
+            //            sonuc = sayi1 / sayi2;
+            //            break;
+            //        default:
+            //            Console.WriteLine("Böyle bir işlem yok ");
+            //            sonuc = 0;
+            //            break;
+            //    }
+
+            //    Console.WriteLine("Sonuc:" + sonuc);
+
+            //    Console.WriteLine("devam mı? (evet) ");
+            //    string cevap = Console.ReadLine();
+
+            //    if (cevap =="evet")
+            //    {
+            //        devam = true;
+            //    }
+            //    else
+            //    {
+            //        devam = false;
+            //    }
+            //}
+            //Console.WriteLine("Görüşürüz");
+            //Console.ReadKey();
+            #endregion
+
+
         }
     }
 }
