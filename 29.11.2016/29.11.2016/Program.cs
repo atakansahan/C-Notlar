@@ -366,7 +366,72 @@ namespace ifelse
             //Console.ReadKey();
             #endregion
 
+            #region TahminetVers.1.0.0.1
+            //Console.WriteLine("[1-100] bir sayı tuttum bul bakalım.");
 
+            //Random r = new Random();
+            //int rasgeleSayi = r.Next(1, 101);
+
+            //int tahmin, counter = 0;
+
+            //while (true)
+            //{
+            //    counter++;
+            //    Console.Write("Tahminin Ne: ");
+            //    tahmin = Convert.ToInt32(Console.ReadLine());
+
+            //    if (tahmin == rasgeleSayi)
+            //    {
+            //        Console.WriteLine("Daha Büyük Tahmin Yap");
+            //    }
+            //    else if (tahmin > rasgeleSayi)
+            //    {
+            //        Console.WriteLine("Daha küçük tahmin yap");
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+
+            //}
+            //Console.WriteLine("\nTebrikler... {0}.adımda bildin", counter);
+            //Console.ReadKey();
+            #endregion
+
+            #region ToplamÇarpım
+            
+            //long toplam = 0, carpim = 1;
+
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //string secim = Console.ReadLine();
+
+            //int counter = 1;
+            //while (counter <=n)
+            //{
+            //    if ( counter %2 ==1)
+            //    {
+            //        toplam += counter;
+            //        carpim *= counter;
+            //    }
+            //    counter++;
+
+            //}
+            //if (secim == "topla")
+            //{
+            //    Console.WriteLine(toplam);
+            //}
+            //else if (secim == "carp")
+            //{
+            //    Console.WriteLine(carpim);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(secim + "ne ??");
+            //}
+            //Console.ReadKey();
+            
+            #endregion
         }
     }
 }
