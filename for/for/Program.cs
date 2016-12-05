@@ -73,12 +73,47 @@ namespace ford
             //for (int i = 1; i <= n; i++)
             //{
             //    toplam += i;
-            //    Console.WriteLine("i :{0\t Toplam : {1}", i, toplam);
+            //    Console.WriteLine("i :{0}\t Toplam : {1}", i, toplam);
             //}
             //Console.WriteLine("Genel Toplam:" + toplam);
             //Console.ReadKey();
             #endregion
-            
+
+            #region İcİceFor
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    Console.Write("*\t        * ");
+                    Console.WriteLine("*********");
+
+
+                }
+                Console.WriteLine();
+            }
+            Console.ReadKey();
+            #endregion
+
+            #region Harfler
+            //for (char c = 'a'; c <= 'z'; c++)
+            //{
+            //    Console.Write(c + " ");
+            //}
+            //Console.ReadKey();
+            #endregion
+
+            #region CarpimTablosu
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    for (int j = 1; j <= 10; j++)
+            //    {
+            //        Console.WriteLine("{0} x {1}\t= {2}", i, j , i * j);
+            //    }
+            //    Console.WriteLine("*************");
+            //}
+            //Console.ReadKey();
+            #endregion
+
         }
     }
 }
