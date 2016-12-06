@@ -91,6 +91,7 @@ namespace Array
 
             #region Günler
             /*
+            Console.Write("Kaçıncı gündesiniz: ");
             int gundegeri;
             string[] gün = new string[7];
             gün[0] = "Pazartesi";
@@ -100,7 +101,6 @@ namespace Array
             gün[4] = "Cuma";
             gün[5] = "Cumartesi";
             gün[6] = "Pazar";
-            Console.Write("Kaçıncı gündesiniz: ");
             gundegeri = int.Parse(Console.ReadLine());
             if ((gundegeri >= 1) && (gundegeri <= 7))
             {
@@ -112,9 +112,37 @@ namespace Array
             }
 
             Console.ReadKey();
-            
-    /*/
+            /*/
             #endregion
+
+            #region Newİnt Nerede Kullanılır
+            /*
+            int[,] sinavlar = new int[2, 3];
+            sinavlar[0,0] = 1;
+            sinavlar[1,0] = 20;
+            sinavlar[0,1] = 2;
+            sinavlar[1,1] = 40;
+            sinavlar[0,2] = 3;
+            sinavlar[1,2] = 60;
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(sinavlar[0, i] + " - " + sinavlar[1, i]);
+            }
+            Console.ReadKey();
+            /*/
+            #endregion
+
+            #region DoWhile Nerede Kullanılır
+            /*
+            int i = 0;
+            do
+            {
+                Console.WriteLine("içerdee");
+            } while (i != 0);
+            /*/
+            #endregion
+
         }
     }
 }
