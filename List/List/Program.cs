@@ -98,7 +98,39 @@ namespace List
             //    Console.WriteLine("\n\t" + item);
             //}
 
+            #region AlfabeSıralaTersten
+            /*
+            List<char> alfabe = new List<char>();
 
+            for (char i ='a'; i <= 'z' ; i++)
+            {
+                alfabe.Add(i);
+            }
+
+            alfabe.Reverse();
+            foreach (var item in alfabe)
+            {
+                Console.Write(item + " ");
+            }
+            Console.ReadKey();
+            /*/
+            #endregion
+
+            #region İsimler Sıralama
+            List<string> isimler = new List<string>();
+
+            isimler.Add("Hakan");
+            isimler.AddRange(new string[] { "İrfan", "Atakan", "Aytekin", "Cemal", "Merve", "Yankı" });
+
+            isimler.Sort();
+            isimler.Reverse();
+
+            foreach (var item in isimler)
+            {
+                Console.WriteLine("\t" + item);
+            }
+            Console.ReadKey();
+            #endregion
         }
     }
 }
