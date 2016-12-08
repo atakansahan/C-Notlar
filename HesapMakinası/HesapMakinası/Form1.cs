@@ -16,15 +16,5 @@ namespace HesapMakinası
         {
             InitializeComponent();
         }
-
-        
-        private void ButtonClick(object sender, EventArgs e)
-        {
-            Button remzi = sender as Button;
-
-            
-
-            
-        }
     }
 }
