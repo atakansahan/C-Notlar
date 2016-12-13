@@ -16,7 +16,7 @@ namespace Screen
         {
             InitializeComponent();
         }
-        List<string> isimler = new List<string>() {"Esranur","Çeyiz" ,"Halil","Bengisu","" };
+        List<string> isimler = new List<string>() {"asdasd","asdasdas" ,"asdasd","asdasd","asdasd","afsdgfns","gdfgdfg","asdasd","asdasd","asdasd","asdasd","sadasd","asdsad","asdasdas" };
         Random rnd = new Random();
         int sayac = 0;
         private void Form1_Load(object sender, EventArgs e)
@@ -27,7 +27,7 @@ namespace Screen
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            int index = rnd.Next(0, 4);
+            int index = rnd.Next(0, 14);
             string isim = isimler[index];
 
             Graphics g = CreateGraphics();
