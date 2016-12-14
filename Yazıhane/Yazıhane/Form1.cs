@@ -25,7 +25,7 @@ namespace Yazıhane
             {
                 for (int j = 0; j < 5; j++)
                 {
-                    if (j !=2 || ) ( j !=12 )
+                    if ((j !=2  ||  i==11  ) && (i !=5 || j <2 ) && (i != 6 || j < 2))
                     {
                         Button btn = new Button();
                         btn.Width = 30;
