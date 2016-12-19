@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ZarAt
 {
@@ -19,7 +20,7 @@ namespace ZarAt
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            Fincan();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -34,9 +35,9 @@ namespace ZarAt
         {
             Random rnd = new Random();
             int sayi = rnd.Next(1, 7);
-            zar_1.ImageLocation = System.IO.Path.GetFullPath("Resimler/" + sayi + ".gif");
+            zar_1.ImageLocation = System.IO.Path.GetFullPath("Resimler//" + sayi + ".gif");
             sayi = rnd.Next(1, 7);
-            zar_1.ImageLocation = System.IO.Path.GetFullPath("Resimler/" + sayi + ".gif");
+            zar_1.ImageLocation = System.IO.Path.GetFullPath("Resimler//" + sayi + ".gif");
         }
 
         private void zar_1_Click(object sender, EventArgs e)
