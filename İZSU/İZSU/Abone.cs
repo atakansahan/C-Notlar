@@ -12,9 +12,10 @@ namespace İZSU
         public string AdSoyad;
         public int OncekiSayac;
         public int SonSayac;
+        public int SonOdeme;
         public string AboneTuru;
 
-        public double OdemeHesapla(double onceki, double son, string aboneTuru)
+        public double OdemeHesapla(double onceki, double son, double sonOdeme, string aboneTuru)
         {
             double result = 0;
             if (aboneTuru == "Ev")

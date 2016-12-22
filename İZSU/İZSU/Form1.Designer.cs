@@ -89,9 +89,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(217, 260);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 20);
+            this.label7.Size = new System.Drawing.Size(66, 20);
             this.label7.TabIndex = 28;
-            this.label7.Text = "ÖDENENLER";
+            this.label7.Text = "Ödenen";
             // 
             // label5
             // 
@@ -99,9 +99,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(24, 260);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 20);
+            this.label5.Size = new System.Drawing.Size(73, 20);
             this.label5.TabIndex = 27;
-            this.label5.Text = "ÖDEME LİSTESİ";
+            this.label5.Text = "Aboneler";
             // 
             // ListBoxÖdenenler
             // 
@@ -162,21 +162,21 @@
             this.ListBoxÖdemeListesi.Name = "ListBoxÖdemeListesi";
             this.ListBoxÖdemeListesi.Size = new System.Drawing.Size(156, 121);
             this.ListBoxÖdemeListesi.TabIndex = 20;
-            this.ListBoxÖdemeListesi.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
+            this.ListBoxÖdemeListesi.DoubleClick += new System.EventHandler(this.ListBoxÖdemeListesi_DoubleClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(36, 23);
+            this.label1.Location = new System.Drawing.Point(16, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 20);
+            this.label1.Size = new System.Drawing.Size(80, 20);
             this.label1.TabIndex = 19;
-            this.label1.Text = "Abone Adı";
+            this.label1.Text = "Abone No";
             // 
             // TxtAboneNo
             // 
-            this.TxtAboneNo.Location = new System.Drawing.Point(39, 46);
+            this.TxtAboneNo.Location = new System.Drawing.Point(19, 46);
             this.TxtAboneNo.Name = "TxtAboneNo";
             this.TxtAboneNo.Size = new System.Drawing.Size(100, 20);
             this.TxtAboneNo.TabIndex = 18;
@@ -185,7 +185,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(161, 23);
+            this.label2.Location = new System.Drawing.Point(198, 23);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 20);
             this.label2.TabIndex = 30;
@@ -193,7 +193,7 @@
             // 
             // TxtAdSoyad
             // 
-            this.TxtAdSoyad.Location = new System.Drawing.Point(165, 46);
+            this.TxtAdSoyad.Location = new System.Drawing.Point(202, 46);
             this.TxtAdSoyad.Name = "TxtAdSoyad";
             this.TxtAdSoyad.Size = new System.Drawing.Size(100, 20);
             this.TxtAdSoyad.TabIndex = 31;
@@ -212,7 +212,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 417);
+            this.ClientSize = new System.Drawing.Size(428, 405);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.TxtAdSoyad);
             this.Controls.Add(this.label2);

@@ -24,6 +24,7 @@ namespace İZSU
             _abone.AdSoyad = TxtAdSoyad.Text;
             _abone.OncekiSayac = int.Parse(TxtOnceki.Text);
             _abone.SonSayac = int.Parse(TxtSonraki.Text);
+
             string aboneTuru = RbEv.Checked == true ? "Ev" : "Kurum";
             aboneTuru = RbSirket.Checked == true ? "Kurum" : "Ev";
             _abone.AboneTuru = aboneTuru;
@@ -32,16 +33,16 @@ namespace İZSU
 
         }
 
-        private void listBox1_DoubleClick(object sender, EventArgs e)
+        private void ListBoxÖdemeListesi_DoubleClick(object sender, EventArgs e)
         {
             Abone _abone = (Abone)ListBoxÖdemeListesi.SelectedItem;
-            double odeme = _abone.OdemeHesapla(_abone.OncekiSayac, _abone.SonSayac, _abone.AboneTuru);
+            double odeme = _abone.OdemeHesapla(_abone.OncekiSayac, _abone.SonSayac, _abone.SonOdeme, _abone.AboneTuru);
 
             DialogResult result = MessageBox.Show("Ödeme Tutarı: " + odeme + "\nÖdeme Yapmak İstermisiniz?", "Ödeme Ekranı", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes)
             {
-                ListBoxÖdemeListesi.Items.Add(_abone);
-                ListBoxÖdenenler.Items.Remove(_abone);
+                ListBoxÖdemeListesi.Items.Remove(_abone);
+                ListBoxÖdenenler.Items.Add(_abone);
             }
         }
 

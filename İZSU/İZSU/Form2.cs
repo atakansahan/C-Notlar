@@ -17,7 +17,7 @@ namespace İZSU
             InitializeComponent();
             textBox1.Text = aboneForm2.AdSoyad;
             textBox2.Text = aboneForm2.AboneNo;
-            textBox3.Text = aboneForm2.OdemeHesapla(aboneForm2.OncekiSayac, aboneForm2.SonSayac, aboneForm2.AboneTuru).ToString();        
+            textBox4.Text = aboneForm2.OdemeHesapla(aboneForm2.OncekiSayac, aboneForm2.SonSayac, aboneForm2.SonOdeme, aboneForm2.AboneTuru).ToString();        
         }
     }
 }
