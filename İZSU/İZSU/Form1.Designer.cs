@@ -33,13 +33,13 @@
             this.RbEv = new System.Windows.Forms.RadioButton();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.ListBoxÖdenenler = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.TxtSonraki = new System.Windows.Forms.TextBox();
             this.TxtOnceki = new System.Windows.Forms.TextBox();
             this.buttonkaydet = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.ListBoxÖdemeListesi = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.TxtAboneNo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -103,14 +103,14 @@
             this.label5.TabIndex = 27;
             this.label5.Text = "ÖDEME LİSTESİ";
             // 
-            // listBox2
+            // ListBoxÖdenenler
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(202, 283);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(156, 121);
-            this.listBox2.TabIndex = 26;
-            this.listBox2.DoubleClick += new System.EventHandler(this.listBox2_DoubleClick);
+            this.ListBoxÖdenenler.FormattingEnabled = true;
+            this.ListBoxÖdenenler.Location = new System.Drawing.Point(202, 283);
+            this.ListBoxÖdenenler.Name = "ListBoxÖdenenler";
+            this.ListBoxÖdenenler.Size = new System.Drawing.Size(156, 121);
+            this.ListBoxÖdenenler.TabIndex = 26;
+            this.ListBoxÖdenenler.DoubleClick += new System.EventHandler(this.ListBoxÖdenenler_DoubleClick);
             // 
             // label4
             // 
@@ -155,14 +155,14 @@
             this.buttonkaydet.Text = "kaydet";
             this.buttonkaydet.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // ListBoxÖdemeListesi
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 283);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(156, 121);
-            this.listBox1.TabIndex = 20;
-            this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
+            this.ListBoxÖdemeListesi.FormattingEnabled = true;
+            this.ListBoxÖdemeListesi.Location = new System.Drawing.Point(12, 283);
+            this.ListBoxÖdemeListesi.Name = "ListBoxÖdemeListesi";
+            this.ListBoxÖdemeListesi.Size = new System.Drawing.Size(156, 121);
+            this.ListBoxÖdemeListesi.TabIndex = 20;
+            this.ListBoxÖdemeListesi.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
             // 
             // label1
             // 
@@ -219,13 +219,13 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.listBox2);
+            this.Controls.Add(this.ListBoxÖdenenler);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtSonraki);
             this.Controls.Add(this.TxtOnceki);
             this.Controls.Add(this.buttonkaydet);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.ListBoxÖdemeListesi);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtAboneNo);
             this.Name = "Form1";
@@ -244,13 +244,13 @@
         private System.Windows.Forms.RadioButton RbEv;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox ListBoxÖdenenler;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TxtSonraki;
         private System.Windows.Forms.TextBox TxtOnceki;
         private System.Windows.Forms.Button buttonkaydet;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox ListBoxÖdemeListesi;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox TxtAboneNo;
         private System.Windows.Forms.Label label2;
